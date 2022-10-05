@@ -1,0 +1,1 @@
+[![PullRequest](https://github.com/kirodoras/pratica-ci-cd/actions/workflows/pull-request.yml/badge.svg?branch=feat%2Fok)](https://github.com/kirodoras/pratica-ci-cd/actions/workflows/pull-request.yml)
