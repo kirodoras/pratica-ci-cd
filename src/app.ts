@@ -4,6 +4,10 @@ import prisma from "./database.js";
 const app = express();
 app.use(json());
 
+app.get("/", async (req: Request, res: Response) => {
+  res.send({Status: "OK"});
+});
+
 app.get("/students", async (req: Request, res: Response) => {
   const students = await prisma.student.findMany();
   res.send(students);
